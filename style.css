@@ -1,0 +1,63 @@
+@import url();
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    background-color: rgb(199, 166, 21)
+}
+
+.container-cabecario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+.logo h1 {
+    display: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+}
+
+ul li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+.btn {
+    background-color: blanchedalmond;
+    padding: 0.9rem 1.3rem;
+    border-radius: 0.5rem;
+}
