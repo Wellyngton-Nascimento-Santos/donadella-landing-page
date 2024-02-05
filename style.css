@@ -110,3 +110,35 @@ button:hover {
     color: white;
     background-color: black;
 }
+
+aside {
+    display: none;
+} 
+
+@media screen and (max-width:800px) {
+    ul{
+        display: none;
+    }
+
+    .links {
+        display: block;
+    }
+
+    .logo {
+        margin-right: 15rem;
+    }
+
+    aside {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        overflow: hidden;
+    }
+
+    #barra-menu {
+        background-color: rgb(209, 193, 50);
+        width: 130px;
+        height: 100vh;
+    }
+}
