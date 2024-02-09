@@ -138,7 +138,67 @@ aside {
 
     #barra-menu {
         background-color: rgb(209, 193, 50);
-        width: 130px;
+        width: 150px;
         height: 100vh;
+        transition: 0.3S all;
+    }
+
+    .icon-menu {
+        width: 45px;
+        height: 45px;
+        margin-right: 1.5rem;
+        margin-top: 2rem;
+        color: white;
+    }
+
+    #barra-menu ul{
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        line-height: 3rem;
+    }
+
+    #barra-menu ul li a {
+        text-decoration: none;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    #barra-menu ul li a:hover {
+        padding: 15px;
+        border-radius: 15px;
+        background-color: rgb(141, 116, 6);
+    }
+
+    .direita img {
+        max-width: 100%;
+        width: 450px;
+        margin-top: 4.5rem;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:781px) {
+    .title h1 {
+        font-size: 2.2rem ;
+        margin-left: 1.5rem;
+    }
+
+    .esquerda p {
+        font-size: 1rem;
+        margin-left: 1.5rem;
+        width: 450px;
+    }
+
+    button {
+        margin-left: 1.5rem;
+    }
+
+    .direita img {
+        max-width: 100%;
+        width: 450px;
+        margin-top: 4.5rem;
+        height: auto;
     }
 }
